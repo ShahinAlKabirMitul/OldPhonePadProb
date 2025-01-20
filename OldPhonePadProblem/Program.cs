@@ -13,6 +13,7 @@ public abstract class OldPhoneKeypad
             Console.WriteLine(OldPhonePad("227*#")); // Output: B
             Console.WriteLine(OldPhonePad("4433555 555666#")); // Output: HELLO
             Console.WriteLine(OldPhonePad("8 88777444666*664#")); // Output: TUNING
+            Console.WriteLine(OldPhonePad(null));
         }
         catch (Exception ex)
         {
