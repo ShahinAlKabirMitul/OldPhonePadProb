@@ -1,0 +1,66 @@
+# Rider project files
+.idea/
+*.iml
+*.iws
+
+# Rider workspace file
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Build output
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Dependency caches
+packages/
+.vs/
+.vscode/
+.nuget/
+*.csproj.user
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Coverage files
+*.coverage
+*.coveragexml
+*.testsettings
+*.vspx
+*.vsscc
+*.cache
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore Rider IDE directories
+.idea/
+
+# Ignore compiled JavaScript/TypeScript
+node_modules/
+dist/
+
+# Ignore design-time files
+*.designer.cs
+*.g.cs
+*.g.i.cs
+``
